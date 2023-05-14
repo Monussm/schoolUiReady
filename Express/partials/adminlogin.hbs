@@ -1,0 +1,20 @@
+<div class="container-fluid adminlogin">
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="text-center text-light mt-3">Admin Login</h3>
+            <form action="/adminlogin" method="post">
+            <label for="emailid"></label>
+           <input class="rounded outline-none" type="text" name="emailid" id="emailid" placeholder="enter your email" style="width: 100%;" required>
+           <label for="passowrd"></label>
+           <input class="rounded outline-none" type="text" name="password" id="password" placeholder="Enter your password" style="width: 100%;" required>
+           <p class="text-light fs-3">{{signup}}</p>
+           <p class="text-light fs-3">{{passerror}}</p>
+           <button class="buttonlogin"  type="submit" style="width: 100%;">Login</button>
+           </form>
+           <div class="row ">
+           <a class="text-center text-light text-decoration-none fs-4" href="/adminforget">Forget Password</a>
+           <a class="text-center text-light text-decoration-none fs-4" href="/adminsignup">Create Account</a>
+           </div>
+        </div>
+    </div>
+</div>

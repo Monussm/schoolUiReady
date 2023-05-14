@@ -1,0 +1,71 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+.imagecontainer{
+/* background-image: url(..//image/kid_transparent.png.webp);
+background-size: auto;
+background-repeat: no-repeat;
+/* background-position: center; */
+/* height: 500px; */ 
+background-color: rgb(211, 211, 217);
+
+
+
+
+}
+.learnmore{
+display: block;
+text-decoration: none;
+color: white;
+background-color: brown;
+width: 130px;
+height: 30px;
+text-align: center;
+padding: 2px 3px;
+border-radius: 30px;
+border-top-right-radius: 0;
+border-bottom-left-radius: 0;
+
+
+}
+.moreaboutus{
+    display: block;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 195px;
+   height: 50px;
+
+}
+.adminlogin{
+    background-image: linear-gradient(to right, rgb(63, 128, 207), rgb(255, 0, 149));
+    /* width: 100vw; */
+    height: 100vh;
+
+
+
+
+}
+.buttonlogin{
+ background-color: blue;
+ color: white;
+ font-size: 20px;
+ font-weight: bold;
+ border: 0;
+ border-radius: 10px;
+
+
+
+}
